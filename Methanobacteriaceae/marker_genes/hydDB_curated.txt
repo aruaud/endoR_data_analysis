@@ -1,0 +1,39 @@
+hyd_ctg	pred_function	electron_donor_acceptor	O2	comment
+[Fe]	Bidirectional	Hmd	tolerant	Reduction of Hmd during hydrogenotrophic methanogenesis
+[FeFe] Group A1	Evolving	Ferredoxin	labile	
+[FeFe] Group A2	H2-uptake	NAD	labile	
+[FeFe] Group A3	Bifurcating	NAD, ferredoxin	labile	
+[FeFe] Group A4	Evolving	Formate	labile	Can also be bifurcating:  Several complexes are multifunctional bifurcating complexes that can use the electrons from H2 or formate to simultaneously reduce NADP and ferredoxin.
+[FeFe] Group B	Evolving	Ferredoxin	labile	
+[FeFe] Group C1	Sensory	NA	labile	
+[FeFe] Group C2	Sensory	NA	labile	
+[FeFe] Group C3	Sensory	NA	labile	
+[NiFe] Group 1a	H2-uptake	Sulfate, metal, or organohalide	sensitive or tolerant	Widespread in sulfate-reducing bacteria.
+[NiFe] Group 1b	H2-uptake	Sulfate, fumarate, nitrate, metals, and azo compounds	sensitive	
+[NiFe] Group 1c	H2-uptake	Fumarate, sulfate, or metals	sensitive	Widespread in Enterobacteria and various sulfate-reducing bacteria
+[NiFe] Group 1d	H2-uptake	O2 or fumarate	tolerant	Oxygen-tolerant
+[NiFe] Group 1e	H2-uptake	Sulfur	sensitive	Soil and aquatic systems with high sulfur content
+[NiFe] Group 1f	H2-uptake	O2	tolerant	Oxygen-protecting
+[NiFe] Group 1g	H2-uptake	Sulfur	sensitive	
+[NiFe] Group 1h	H2-uptake	O2	tolerant or insensitive	
+[NiFe] Group 1i	H2-uptake	Unknown	sensitive	Likely to mediate hydrogenotrophic respiration using unresolved electron acceptor.
+[NiFe] Group 1j	H2-uptake	Sulfate, iron, or nitrate	sensitive	Exclusive to Euryarchaeota of the order Archaeoglobales
+[NiFe] Group 1k	H2-uptake	Heterodisulfide	sensitive	Exclusive to methanogens of the order Methanosarcinales
+[NiFe] Group 2a	H2-uptake	O2	tolerant	
+[NiFe] Group 2b	Sensory	NA	tolerant	
+[NiFe] Group 2c	Sensory	NA	tolerant	
+[NiFe] Group 2d	H2-uptake	NA	tolerant	In low abundance in hot spring samples
+[NiFe] Group 2e	H2-uptake	O2	tolerant	Exclusive to Crenarchaeota. Hydrothermal systems, other high temperature environments.
+[NiFe] Group 3a	Bidirectional	F420	tolerant	Reduction of F420 during hydrogenotrophic methanogenesis
+[NiFe] Group 3b	Bidirectional	NADP	tolerant	Directly couples oxidation of NADPH to fermentative evolution of H2. Diverse soil and aquatic environments.
+[NiFe] Group 3c	Bifurcating	heterodisulfide and ferredoxin	tolerant	In methanogens
+[NiFe] Group 3d	Bidirectional	NAD	tolerant	
+[NiFe] Group 4a	Evolving	Formate	sensitive	Directly couples formate oxidation to H2 evolution
+[NiFe] Group 4b	Evolving	Formate, carbon monoxide	sensitive	
+[NiFe] Group 4c	Evolving	Carbon monoxide	tolerant	
+[NiFe] Group 4d	Evolving	Ferredoxin	sensitive	Hydrothermal vents, other high temperature ecosystems
+[NiFe] Group 4e	Evolving	Ferredoxin	sensitive	Acetoclastic methanogenesis, reverse during hydrogenotrophic methanogenesis. Encoded in multiple methanogenic orders and anaerobic bacteria
+[NiFe] Group 4f	Evolving	Formate	sensitive	
+[NiFe] Group 4g	Evolving	Ferredoxin	sensitive	
+[NiFe] Group 4h	Evolving	Ferredoxin	sensitive	During methanogenesis?
+[NiFe] Group 4i	Evolving	Ferredoxin	sensitive	
