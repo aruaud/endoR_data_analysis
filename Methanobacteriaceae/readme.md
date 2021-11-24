@@ -18,3 +18,10 @@ Raw data blast are available on demand. The *_n_copies.ipynb notebooks contain t
 
 **./tmp/**
 Intermediary objects such as CV models, the final model, endoR bootstraps, etc. These can be directly loaded instead of running the whole notebooks. 
+The following files could not be included due to size but are available on demand (and can be generated using the notebooks in any case):
+- ta_ranger_nt500.qs
+- Final_model-permutated.qs
+- endoR_boots.qs
+- ta_ranger_nt250.qs
+- Sub_ta-gRRF_range.qs
+
