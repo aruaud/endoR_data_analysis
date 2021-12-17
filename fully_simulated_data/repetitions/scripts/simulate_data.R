@@ -8,18 +8,24 @@ getSimulations <- function(nr = 5000, v_tosamp, prandom = 0.2, seedOri=1){
     }
     simu <- simu[,tmp:=NULL]
     
+    # grpoup row numbers
+    i_a <- 1:(0.25*nr)
+    i_b <- (0.25*nr+1):(0.5*nr)
+    i_c <- (0.5*nr+1):(0.75*nr)
+    i_d <- (0.75*nr+1):nr
+    
     # get the target
-    set(simu, 1:(0.25*nr), 'target', simu[[1]][ 1:(0.25*nr) ]*simu[[2]][ 1:(0.25*nr) ] )
-    set(simu, 1:(0.25*nr), 'group', 'a')
+    set(simu, i_a, 'target', sign(simu[[1]][ i_a ]*simu[[2]][ i_a ]) )
+    set(simu, i_a, 'group', 'a')
 
-    set(simu, (0.25*nr+1):(0.5*nr), 'target', simu[[3]][ (0.25*nr+1):(0.5*nr) ])
-    set(simu, (0.25*nr+1):(0.5*nr), 'group', 'b')
+    set(simu, i_b, 'target', sign(simu[[3]][ i_b ]) )
+    set(simu, i_b, 'group', 'b')
 
-    set(simu, (0.5*nr+1):(0.75*nr), 'target', simu[[4]][(0.5*nr+1):(0.75*nr) ]+simu[[5]][ (0.5*nr+1):(0.75*nr) ])
-    set(simu, (0.5*nr+1):(0.75*nr), 'group', 'c')
+    set(simu, i_c, 'target', ifelse(simu[[4]][i_c]>0&simu[[5]][i_c]>0, 1, -1))
+    set(simu, i_c, 'group', 'c')
 
-    set(simu, (0.75*nr+1):nr, 'target', simu[[6]][(0.75*nr+1):nr] - simu[[7]][(0.75*nr+1):nr])
-    set(simu, (0.75*nr+1):nr, 'group', 'd')
+    set(simu, i_d, 'target', ifelse(simu[[6]][i_d]>0&simu[[7]][i_d]<0, 1, -1))
+    set(simu, i_d, 'group', 'd')
     
     # randomise
     if (prandom > 0){
