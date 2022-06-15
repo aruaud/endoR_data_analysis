@@ -1,6 +1,6 @@
-Ruaud et al., in preparation.  
+Ruaud et al., in review.  
 -
-Authors: Albane Ruaud, Niklas Pfister, Ruth E Ley, Nicholas Youngblut (nicholas.youngblut@tuebingen.mpg.de). 
+Preprint: Albane Ruaud, Niklas A Pfister, Ruth E Ley, Nicholas D Youngblut. Interpreting tree ensemble machine learning models with endoR. bioRxiv (2022). DOI: [10.1101/2022.01.03.474763](https://www.biorxiv.org/content/10.1101/2022.01.03.474763v1)
 
 -------
 
@@ -11,7 +11,3 @@ All data generation and analyses were performed by Albane Ruaud with the help of
 - Nicholas Youngblut: gene set enrichment analysis.
 
 Please write me (albane.ruaud@tuebingen.mpg.de) to access the raw data from simulations and metagenomes (too big to fit on Git) or to clarify the code :) 
-
--------
-
-Pre-print and peer-reviewed article: stay tuned!
